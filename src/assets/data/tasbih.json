@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Subhanallah",
+    "arabic": "سُبْحَانَ اللّٰهِ",
+    "latin": "Subhanallah",
+    "translation": "Maha Suci Allah"
+  },
+  {
+    "id": 2,
+    "name": "Alhamdulillah",
+    "arabic": "الْحَمْدُ لِلّٰهِ",
+    "latin": "Alhamdulillah",
+    "translation": "Segala puji bagi Allah"
+  },
+  {
+    "id": 3,
+    "name": "Allahu Akbar",
+    "arabic": "اللّٰهُ أَكْبَرُ",
+    "latin": "Allahu Akbar",
+    "translation": "Allah Maha Besar"
+  },
+  {
+    "id": 4,
+    "name": "La ilaha illallah",
+    "arabic": "لَا إِلٰهَ إِلَّا اللّٰهُ",
+    "latin": "La ilaha illallah",
+    "translation": "Tiada Tuhan selain Allah"
+  },
+  {
+    "id": 5,
+    "name": "Astaghfirullah",
+    "arabic": "أَسْتَغْفِرُ اللّٰهَ",
+    "latin": "Astaghfirullah",
+    "translation": "Aku memohon ampun kepada Allah"
+  },
+  {
+    "id": 6,
+    "name": "La hawla wa la quwwata illa billah",
+    "arabic": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ",
+    "latin": "La hawla wa la quwwata illa billah",
+    "translation": "Tiada daya dan kekuatan kecuali dengan Allah"
+  },
+  {
+    "id": 7,
+    "name": "Subhanallah wa bihamdihi",
+    "arabic": "سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ",
+    "latin": "Subhanallah wa bihamdihi",
+    "translation": "Maha Suci Allah dan dengan memuji-Nya"
+  },
+  {
+    "id": 8,
+    "name": "Subhanallahil adzim",
+    "arabic": "سُبْحَانَ اللّٰهِ الْعَظِيمِ",
+    "latin": "Subhanallahil adzim",
+    "translation": "Maha Suci Allah yang Maha Agung"
+  },
+  {
+    "id": 9,
+    "name": "Subhanallahi wa bihamdihi, subhanallahil adzim",
+    "arabic": "سُبْحَانَ اللّٰهِ وَبِحَمْدِهِ، سُبْحَانَ اللّٰهِ الْعَظِيمِ",
+    "latin": "Subhanallahi wa bihamdihi, subhanallahil adzim",
+    "translation": "Maha Suci Allah dan dengan memuji-Nya, Maha Suci Allah yang Maha Agung"
+  },
+  {
+    "id": 10,
+    "name": "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu yuhyii wa yumitu wa huwa hayyun laa yamutu bi yadihil khairu wahuwa 'ala kulli syai'in qadiir",
+    "arabic": "لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لَا يَمُوتُ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ",
+    "latin": "Laa ilaaha illallaahu wahdahu laa syariika lah, lahul mulku wa lahul hamdu yuhyii wa yumitu wa huwa hayyun laa yamutu bi yadihil khairu wahuwa 'ala kulli syai'in qadiir",
+    "translation": "Tiada Tuhan selain Allah, Yang Maha Esa, tidak ada sekutu bagi-Nya, milik-Nya kerajaan dan bagi-Nya segala puji, Dia yang menghidupkan dan mematikan, dan Dia Maha Hidup, tidak akan mati, di tangan-Nya segala kebaikan, dan Dia Maha Kuasa atas segala sesuatu"
+  }
+]
