@@ -1,22 +1,33 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import { ref } from 'vue'
 import imgSetelahSholat from "@/assets/img/setelah-sholat.jpg"
 import imgPagi from "@/assets/img/pagi.png"
 import imgPetang from "@/assets/img/petang.png"
 import imgHarian from "@/assets/img/harian.jpg"
 import imgDzikirBanner from "@/assets/img/dzikir-banner.jpg"
-const listDzikir = [
-    { id: 1, name: "Dzikir Setelah Sholat", img: imgSetelahSholat },
-    { id: 2, name: "Dzikir Pagi", img: imgPagi },
-    { id: 3, name: "Dzikir Petang", img: imgPetang },
-    { id: 4, name: "Dzikir Harian", img: imgHarian },
-]
+import listDzikirJson from "@/assets/data/dzikir.json"
+
+const imgMap: Record<string, string> = {
+    imgSetelahSholat,
+    imgPagi,
+    imgPetang,
+    imgHarian,
+}
+
+const listDzikir = ref(
+    listDzikirJson.map(item => ({
+        ...item,
+        img: imgMap[item.img] // ganti string → URL asli
+    }))
+)
+
 </script>
 <template>
     <div id="dzikir">
         <div id="greeting-wrapper">
             <img :src="imgDzikirBanner" alt="dzikir banner" class="banner-img glass" />
-            <h3 class="banner-text">Dalam setiap tarikan nafas, aku mengingat-Mu, ya Allah.</h3>
+            <h3 class="banner-text glass">Dalam setiap tarikan nafas, aku mengingat-Mu, ya Allah.</h3>
         </div>
         <div v-for="dzikir in listDzikir" :key="dzikir.id" class="dzikir-wrapper">
             <div>
@@ -82,12 +93,13 @@ const listDzikir = [
     padding: 0 20px;
     color: var(--vt-c-black);
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .card-img {
     width: 100%;
-    height: auto;
+    height: 220px;
+    object-fit: cover;
+    object-position: bottom;
     border-radius: 8px;
 }
 
@@ -106,7 +118,7 @@ const listDzikir = [
     font-weight: 600;
     font-size: 1.2rem;
     font-style: bold;
-    color: var(--app-green-5);
+    color: var(--vt-c-black);
 }
 
 .btn-link {

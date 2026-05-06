@@ -20,6 +20,11 @@ const router = createRouter({
       name: 'dzikir',
       component: () => import('../views/DzikirView.vue'),
     },
+    {
+      path: '/dzikir/:id',
+      name: 'dzikir-detail',
+      component: () => import('../views/DzikirDetailView.vue'),
+    },
   ],
 })
 
