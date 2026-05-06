@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import tasbihCard from "@/assets/img/tasbih-card.png"
-import listTasbih from "@/assets/data/tasbih.json"
+import imgTasbihCard from "@/assets/img/tasbih-card.png"
+import jsonListTasbih from "@/assets/data/tasbih.json"
 import TasbihListComponent from "@/components/tasbih/TasbihListComponent.vue"
 
 interface Tasbih {
@@ -13,7 +13,7 @@ interface Tasbih {
     count?: number
 }
 
-const tasbihList = ref<Tasbih[]>(listTasbih as Tasbih[])
+const tasbihList = ref<Tasbih[]>(jsonListTasbih as Tasbih[])
 
 const handleIncrement = (id: number) => {
     const tasbih = tasbihList.value.find(t => t.id === id)
@@ -44,7 +44,7 @@ const handleReset = (id: number) => {
     <div id="tasbih">
         <div id="greeting-wrapper">
             <h3>Dalam setiap tarikan nafas, aku mengingat-Mu, ya Allah.</h3>
-            <img :src="tasbihCard" alt="tasbih card" id="card-img" />
+            <img :src="imgTasbihCard" alt="tasbih card" id="card-img" />
         </div>
         <div v-for="tasbih in tasbihList" :key="tasbih.id" class="tasbih-wrapper">
             <TasbihListComponent :tasbih="tasbih" @increment="handleIncrement" @decrement="handleDecrement"
