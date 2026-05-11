@@ -1,0 +1,360 @@
+<!doctype html>
+
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Heart Quest - Pilih Kategori</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Nunito+Sans:wght@400;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'secondary-container': '#8458e4',
+              'on-primary-fixed-variant': '#7e273c',
+              'on-background': '#1b1c17',
+              'surface-container-highest': '#e4e3db',
+              'on-secondary-fixed-variant': '#5520b3',
+              tertiary: '#b4252d',
+              'primary-fixed': '#ffd9dd',
+              secondary: '#6b3dca',
+              'on-tertiary-container': '#8a0015',
+              error: '#ba1a1a',
+              'surface-tint': '#9c3f53',
+              'on-surface': '#1b1c17',
+              'surface-container-low': '#f5f4ec',
+              'on-tertiary-fixed-variant': '#920418',
+              'primary-fixed-dim': '#ffb2bd',
+              'on-primary-fixed': '#400013',
+              'on-secondary': '#ffffff',
+              'on-secondary-container': '#fffbff',
+              'surface-container': '#f0eee6',
+              'on-primary': '#ffffff',
+              'surface-variant': '#e4e3db',
+              'tertiary-fixed': '#ffdad7',
+              'surface-container-lowest': '#ffffff',
+              outline: '#887274',
+              'on-secondary-fixed': '#23005b',
+              'on-primary-container': '#782338',
+              'on-error-container': '#93000a',
+              primary: '#9c3f53',
+              'inverse-primary': '#ffb2bd',
+              'surface-dim': '#dcdad2',
+              'on-surface-variant': '#554244',
+              'inverse-on-surface': '#f3f1e9',
+              'on-tertiary-fixed': '#410005',
+              'tertiary-container': '#ff8f8a',
+              'tertiary-fixed-dim': '#ffb3af',
+              'inverse-surface': '#30312c',
+              'outline-variant': '#dac0c3',
+              'on-error': '#ffffff',
+              'primary-container': '#ff8da1',
+              'secondary-fixed': '#e9ddff',
+              surface: '#fbf9f1',
+              'error-container': '#ffdad6',
+              'secondary-fixed-dim': '#d1bcff',
+              background: '#fbf9f1',
+              'on-tertiary': '#ffffff',
+              'surface-bright': '#fbf9f1',
+              'surface-container-high': '#eae8e0',
+            },
+            borderRadius: {
+              DEFAULT: '0.25rem',
+              lg: '0.5rem',
+              xl: '0.75rem',
+              full: '9999px',
+            },
+            spacing: {
+              'pixel-unit': '4px',
+              'stack-sm': '8px',
+              'margin-mobile': '20px',
+              'stack-md': '16px',
+              'stack-lg': '32px',
+              gutter: '16px',
+            },
+            fontFamily: {
+              'label-sm': ['Nunito Sans'],
+              'body-lg': ['Nunito Sans'],
+              'headline-md': ["'Press Start 2P'"],
+              'headline-lg': ["'Press Start 2P'"],
+              'body-md': ['Nunito Sans'],
+            },
+            fontSize: {
+              'label-sm': ['12px', { lineHeight: '16px', fontWeight: '700' }],
+              'body-lg': ['18px', { lineHeight: '28px', fontWeight: '400' }],
+              'headline-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
+              'headline-lg': ['20px', { lineHeight: '32px', fontWeight: '400' }],
+              'body-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #fbf9f1;
+        position: relative;
+        margin: 0;
+      }
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image:
+          radial-gradient(#9c3f53 0.5px, transparent 0.5px),
+          radial-gradient(#9c3f53 0.5px, #fbf9f1 0.5px);
+        background-size: 20px 20px;
+        background-position:
+          0 0,
+          10px 10px;
+        background-repeat: repeat;
+        opacity: 0.1;
+        z-index: -1;
+        pointer-events: none;
+      }
+      .main-content {
+        position: relative;
+        z-index: 1;
+      }
+      .pixel-card {
+        box-shadow: 4px 4px 0px 0px rgba(27, 28, 23, 1);
+        transition: all 0.1s;
+        background-color: #fbf9f1; /* Ensure cards have solid backgrounds */
+      }
+      .pixel-card:active {
+        transform: translate(2px, 2px);
+        box-shadow: 0px 0px 0px 0px rgba(27, 28, 23, 1);
+      }
+      .pixel-border-double {
+        border: 4px solid #1b1c17;
+        position: relative;
+      }
+      .pixel-border-double::after {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        right: 2px;
+        bottom: 2px;
+        border: 2px solid #ffffff;
+        pointer-events: none;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+      }
+    </style>
+    <style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+  </head>
+  <body class="bg-background text-on-surface min-h-screen">
+    <!-- TopAppBar -->
+    <header
+      class="w-full top-0 bg-surface border-b-4 border-on-background shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sticky z-50"
+    >
+      <div class="flex items-center px-margin-mobile h-16 w-full max-w-7xl mx-auto justify-between">
+        <div class="flex items-center gap-4">
+          <button
+            class="text-primary hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all"
+          >
+            <span class="material-symbols-outlined text-2xl" data-icon="arrow_back"
+              >arrow_back</span
+            >
+          </button>
+          <h1 class="font-headline-lg text-headline-lg text-primary">HEART QUEST</h1>
+        </div>
+        <div class="hidden md:flex gap-6">
+          <span class="font-label-sm text-label-sm text-primary font-bold">Home</span>
+          <span class="font-label-sm text-label-sm text-on-surface-variant">Chat</span>
+          <span class="font-label-sm text-label-sm text-on-surface-variant">Harmony</span>
+        </div>
+      </div>
+    </header>
+    <main class="main-content max-w-4xl mx-auto px-margin-mobile py-stack-lg">
+      <!-- Hero Section -->
+      <div class="text-center mb-stack-lg">
+        <h2 class="font-headline-md text-headline-md text-on-background mb-stack-sm">
+          Pertanyaan Seputar Pasangan
+        </h2>
+        <p class="font-body-lg text-body-lg text-on-surface-variant">
+          Pilih kategori untuk mulai mengobrol
+        </p>
+      </div>
+      <!-- Category Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+        <!-- Category 1: Pacar -->
+        <div
+          class="pixel-card bg-surface border-4 border-on-background flex flex-col items-center p-stack-md cursor-pointer group"
+        >
+          <div
+            class="w-24 h-24 bg-primary-container border-2 border-on-background flex items-center justify-center mb-stack-md group-hover:bg-primary transition-colors"
+          >
+            <span
+              class="material-symbols-outlined text-5xl text-on-primary-container group-hover:text-on-primary"
+              data-icon="favorite"
+              style="font-variation-settings: 'FILL' 1"
+              >favorite</span
+            >
+          </div>
+          <h3 class="font-headline-md text-headline-md text-center mb-stack-sm">Pacar</h3>
+          <div class="h-1 w-full bg-outline-variant mb-stack-sm"></div>
+          <p class="font-label-sm text-label-sm text-on-surface-variant text-center">
+            Jalin kedekatan lebih dalam dengan pasanganmu.
+          </p>
+          <div
+            class="mt-stack-md bg-secondary text-on-secondary font-label-sm text-label-sm px-4 py-2 pixel-border-double"
+          >
+            PILIH
+          </div>
+        </div>
+        <!-- Category 2: Suami Istri -->
+        <div
+          class="pixel-card bg-surface border-4 border-on-background flex flex-col items-center p-stack-md cursor-pointer group"
+        >
+          <div
+            class="w-24 h-24 bg-secondary-container border-2 border-on-background flex items-center justify-center mb-stack-md group-hover:bg-secondary transition-colors"
+          >
+            <span
+              class="material-symbols-outlined text-5xl text-on-secondary-container group-hover:text-on-secondary"
+              data-icon="diamond"
+              style="font-variation-settings: 'FILL' 1"
+              >diamond</span
+            >
+          </div>
+          <h3 class="font-headline-md text-headline-md text-center mb-stack-sm">Suami Istri</h3>
+          <div class="h-1 w-full bg-outline-variant mb-stack-sm"></div>
+          <p class="font-label-sm text-label-sm text-on-surface-variant text-center">
+            Bangun komunikasi yang lebih kokoh setiap hari.
+          </p>
+          <div
+            class="mt-stack-md bg-secondary text-on-secondary font-label-sm text-label-sm px-4 py-2 pixel-border-double"
+          >
+            PILIH
+          </div>
+        </div>
+        <!-- Category 3: Orang Tua & Anak -->
+        <div
+          class="pixel-card bg-surface border-4 border-on-background flex flex-col items-center p-stack-md cursor-pointer group"
+        >
+          <div
+            class="w-24 h-24 bg-tertiary-container border-2 border-on-background flex items-center justify-center mb-stack-md group-hover:bg-tertiary transition-colors"
+          >
+            <span
+              class="material-symbols-outlined text-5xl text-on-tertiary-container group-hover:text-on-tertiary"
+              data-icon="family_history"
+              style="font-variation-settings: 'FILL' 1"
+              >family_history</span
+            >
+          </div>
+          <h3
+            class="font-headline-md text-headline-md text-center mb-stack-sm text-[12px] leading-tight"
+          >
+            Orang Tua &amp; Anak
+          </h3>
+          <div class="h-1 w-full bg-outline-variant mb-stack-sm"></div>
+          <p class="font-label-sm text-label-sm text-on-surface-variant text-center">
+            Harmoniskan hubungan dalam lingkaran keluarga.
+          </p>
+          <div
+            class="mt-stack-md bg-secondary text-on-secondary font-label-sm text-label-sm px-4 py-2 pixel-border-double"
+          >
+            PILIH
+          </div>
+        </div>
+      </div>
+      <!-- Featured Illustration -->
+      <div
+        class="mt-stack-lg border-4 border-on-background bg-surface-container overflow-hidden pixel-card"
+      >
+        <div class="flex flex-col md:flex-row items-center">
+          <div
+            class="w-full md:w-1/2 h-48 md:h-64 bg-surface-variant flex items-center justify-center overflow-hidden"
+          >
+            <img
+              alt="Retro Gaming Setup"
+              class="w-full h-full object-cover"
+              data-alt="A detailed pixel-art style illustration of a cozy retro gaming living room with a chunky CRT television sitting on a low wooden table. Soft warm ambient lighting glows from the screen, illuminating a plush carpet with subtle geometric patterns. The overall aesthetic uses a warm palette of creamy whites, deep reds, and soft purples to create a nostalgic and intimate 8-bit atmosphere."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxgUexGHoAV_RS3Nracz3Z0Au7IVp6HAUOT24xngWTgr6kzf77VPwITpopHOx8EKvO9Rqno-AT3MOtAgVN1JtZtDE5D_q_C247hdjZCRVbHnZDts7M8Ghbr3cfD7TpYohn8MZqyWDTJ4baM-R_d2FwCKrO26QO2HzBCV2Wl_eePBKUyF5ED_8CX4o7sHKeo0V4CxRztVKlNg21DUn4UPYGHyIqZ-ejTVINCOH9RIxn_wC-yyJXmymAbXIM2YgkFoW3Ldf6wlWO7A"
+            />
+          </div>
+          <div class="p-stack-md w-full md:w-1/2">
+            <div class="flex items-center gap-2 mb-stack-sm">
+              <span
+                class="material-symbols-outlined text-primary"
+                data-icon="star"
+                style="font-variation-settings: 'FILL' 1"
+                >star</span
+              >
+              <h4 class="font-headline-md text-headline-md">Quest Baru</h4>
+            </div>
+            <p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+              Mulai petualangan cintamu hari ini dan buka achievement kebahagiaan baru bersama orang
+              tersayang.
+            </p>
+            <div class="flex gap-4">
+              <div class="h-8 w-2/3 bg-on-background flex items-center px-4">
+                <div class="h-4 w-1/2 bg-primary"></div>
+                <div class="h-4 w-1/4 bg-primary-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- BottomNavBar -->
+    <nav
+      class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 bg-surface border-t-4 border-on-background h-20"
+    >
+      <a
+        class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-none border-2 border-on-background p-1 translate-y-[-2px]"
+        href="#"
+      >
+        <span class="material-symbols-outlined" data-icon="home">home</span>
+        <span class="font-label-sm text-label-sm">Home</span>
+      </a>
+      <a
+        class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-secondary-fixed"
+        href="#"
+      >
+        <span class="material-symbols-outlined" data-icon="chat_bubble">chat_bubble</span>
+        <span class="font-label-sm text-label-sm">Chat</span>
+      </a>
+      <a
+        class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-secondary-fixed"
+        href="#"
+      >
+        <span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+        <span class="font-label-sm text-label-sm">Harmony</span>
+      </a>
+    </nav>
+    <!-- FAB for quick action -->
+    <button
+      class="fixed bottom-24 right-6 w-14 h-14 bg-secondary text-on-secondary border-4 border-on-background flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none active:scale-95 transition-all md:bottom-8"
+    >
+      <span class="material-symbols-outlined" data-icon="add">add</span>
+    </button>
+  </body>
+</html>

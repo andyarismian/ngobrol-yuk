@@ -1,7 +1,7 @@
 services:
   app:
     image: node:22-alpine
-    container_name: dds-vue-app
+    container_name: ngobrol_yuk_app
     working_dir: /app
     volumes:
       - .:/app

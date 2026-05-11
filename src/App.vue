@@ -1,13 +1,17 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-import Top from "@/components/Top.vue"
-import Menu from "./components/Menu.vue";
+import { RouterLink, RouterView } from 'vue-router'
+import HelloWorld from './components/HelloWorld.vue'
+import Menu from './components/Menu.vue'
+import Header from './components/Header.vue';
+import imgBackground from '@/assets/img/bg.png';
 </script>
 
 <template>
-  <Top />
+  <Header />
+  <!-- <HelloWorld msg="You did it!" /> -->
   <RouterView />
   <Menu />
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

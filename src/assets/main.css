@@ -4,21 +4,174 @@
   min-height: 100vh;
   max-width: 480px;
   margin: 0 auto;
-  font-weight: normal;
-  background: var(--app-green-1);
-  color: var(--vt-c-black-soft);
+  background-image: url('/src/assets/img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.font-body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-headline {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.text-label-sm {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.text-body-md {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text-body-lg {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.text-headline-md {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text-headline-lg {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.border-pixel {
+  border: 5px solid var(--black-500);
+  box-shadow: 6px 6px 0px var(--black-500); /* shadow luar (lapis 2) */
+}
+
+.border-pixel::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: -6px;
+  bottom: -6px;
+  border: 3px solid var(--color-border);
+  z-index: -1;
+}
+
+.border-pixel-sm {
+  border: 3px solid var(--black-500);
+  box-shadow: 3px 3px 0px var(--black-500); /* shadow luar (lapis 2) */
+}
+
+.border-pixel-sm::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: -3px;
+  bottom: -3px;
+  border: 3px solid var(--color-border);
+  z-index: -1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
   padding: 1rem;
 }
 
-.glass {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.05));
+.card-header {
+  padding: 1rem;
+  border-bottom: 2px solid var(--black-500);
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
 
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+.bg-primary {
+  background-color: var(--primary-500);
+}
 
-  border: 1px solid rgba(255, 255, 255, 0.18);
+.bg-secondary {
+  background-color: var(--secondary-500);
+}
 
-  box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.25),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+.bg-tertiary {
+  background-color: var(--tertiary-500);
+}
+
+.bg-neutral-100 {
+  background-color: var(--neutral-100);
+}
+
+.btn {
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: var(--primary-900);
+  color: var(--neutral-100);
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-500);
+  color: var(--neutral-100);
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 2px solid #ffffff;
+  pointer-events: none;
+}
+
+.btn:hover {
+  transform: translate(3px, 3px);
+}
+
+.btn:active {
+  transform: translate(3px, 3px);
+}
+
+.text-primary {
+  color: var(--primary-500);
+}
+
+.text-primary-900 {
+  color: var(--primary-900);
+}
+
+.text-white {
+  color: var(--neutral-100);
 }

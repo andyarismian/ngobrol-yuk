@@ -1,0 +1,314 @@
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Nunito+Sans:wght@400;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'secondary-container': '#8458e4',
+              'on-primary-fixed-variant': '#7e273c',
+              'on-background': '#1b1c17',
+              'surface-container-highest': '#e4e3db',
+              'on-secondary-fixed-variant': '#5520b3',
+              tertiary: '#b4252d',
+              'primary-fixed': '#ffd9dd',
+              secondary: '#6b3dca',
+              'on-tertiary-container': '#8a0015',
+              error: '#ba1a1a',
+              'surface-tint': '#9c3f53',
+              'on-surface': '#1b1c17',
+              'surface-container-low': '#f5f4ec',
+              'on-tertiary-fixed-variant': '#920418',
+              'primary-fixed-dim': '#ffb2bd',
+              'on-primary-fixed': '#400013',
+              'on-secondary': '#ffffff',
+              'on-secondary-container': '#fffbff',
+              'surface-container': '#f0eee6',
+              'on-primary': '#ffffff',
+              'surface-variant': '#e4e3db',
+              'tertiary-fixed': '#ffdad7',
+              'surface-container-lowest': '#ffffff',
+              outline: '#887274',
+              'on-secondary-fixed': '#23005b',
+              'on-primary-container': '#782338',
+              'on-error-container': '#93000a',
+              primary: '#9c3f53',
+              'inverse-primary': '#ffb2bd',
+              'surface-dim': '#dcdad2',
+              'on-surface-variant': '#554244',
+              'inverse-on-surface': '#f3f1e9',
+              'on-tertiary-fixed': '#410005',
+              'tertiary-container': '#ff8f8a',
+              'tertiary-fixed-dim': '#ffb3af',
+              'inverse-surface': '#30312c',
+              'outline-variant': '#dac0c3',
+              'on-error': '#ffffff',
+              'primary-container': '#ff8da1',
+              'secondary-fixed': '#e9ddff',
+              surface: '#fbf9f1',
+              'error-container': '#ffdad6',
+              'secondary-fixed-dim': '#d1bcff',
+              background: '#fbf9f1',
+              'on-tertiary': '#ffffff',
+              'surface-bright': '#fbf9f1',
+              'surface-container-high': '#eae8e0',
+            },
+            borderRadius: {
+              DEFAULT: '0.25rem',
+              lg: '0.5rem',
+              xl: '0.75rem',
+              full: '9999px',
+            },
+            spacing: {
+              'pixel-unit': '4px',
+              'stack-sm': '8px',
+              'margin-mobile': '20px',
+              'stack-md': '16px',
+              'stack-lg': '32px',
+              gutter: '16px',
+            },
+            fontFamily: {
+              'label-sm': ['Nunito Sans'],
+              'body-lg': ['Nunito Sans'],
+              'headline-md': ["'Press Start 2P'"],
+              'headline-lg': ["'Press Start 2P'"],
+              'body-md': ['Nunito Sans'],
+            },
+            fontSize: {
+              'label-sm': ['12px', { lineHeight: '16px', fontWeight: '700' }],
+              'body-lg': ['18px', { lineHeight: '28px', fontWeight: '400' }],
+              'headline-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
+              'headline-lg': ['20px', { lineHeight: '32px', fontWeight: '400' }],
+              'body-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-image: radial-gradient(circle at 2px 2px, #e9ddff 1px, transparent 0);
+        background-size: 24px 24px;
+      }
+      .pixel-shadow {
+        box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+      }
+      .pixel-shadow-inset {
+        box-shadow: inset 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
+      }
+      .pixel-button:active {
+        transform: translate(2px, 2px);
+        box-shadow: none;
+      }
+      .pixel-border {
+        border: 4px solid #1b1c17;
+      }
+      .pixel-border-sm {
+        border: 2px solid #1b1c17;
+      }
+    </style>
+    <style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+  </head>
+  <body class="bg-background text-on-background min-h-screen flex flex-col font-body-md">
+    <!-- TopAppBar -->
+    <header
+      class="w-full top-0 bg-surface border-b-4 border-on-background shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sticky z-40"
+    >
+      <div class="flex items-center px-margin-mobile h-16 w-full max-w-7xl mx-auto">
+        <button class="mr-4 active:scale-95 transition-transform">
+          <span class="material-symbols-outlined text-primary text-2xl" data-icon="arrow_back"
+            >arrow_back</span
+          >
+        </button>
+        <h1 class="font-headline-lg text-headline-lg text-primary">HEART QUEST</h1>
+      </div>
+    </header>
+    <main class="flex-grow w-full max-w-7xl mx-auto px-margin-mobile pt-stack-lg pb-32">
+      <!-- Header Section -->
+      <div class="mb-stack-lg text-center md:text-left">
+        <h2 class="font-headline-md text-headline-md text-secondary mb-2">Tes Keharmonisan</h2>
+        <p class="font-body-lg text-body-lg text-on-surface-variant">
+          Ukur kehangatan hubunganmu hari ini
+        </p>
+      </div>
+      <!-- Category Bento Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+        <!-- Card 1: Pacar -->
+        <div class="md:col-span-12 lg:col-span-5 group">
+          <div
+            class="bg-surface-container-lowest pixel-border pixel-shadow p-6 h-full flex flex-col justify-between transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none"
+          >
+            <div class="flex justify-between items-start mb-6">
+              <div class="bg-primary-container pixel-border-sm p-3">
+                <span
+                  class="material-symbols-outlined text-4xl"
+                  data-icon="favorite"
+                  style="font-variation-settings: 'FILL' 1"
+                  >favorite</span
+                >
+              </div>
+              <span
+                class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-3 py-1 pixel-border-sm"
+                >POPULAR</span
+              >
+            </div>
+            <div>
+              <h3 class="font-headline-md text-headline-md mb-2">Pacar</h3>
+              <p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                Evaluasi percikan asmara dan komunikasi harianmu bersama si dia.
+              </p>
+              <div class="w-full h-32 overflow-hidden pixel-border mb-6">
+                <img
+                  class="w-full h-full object-cover"
+                  data-alt="A whimsical pixel-art inspired scene of two stylized characters sitting on a bench under a pink cherry blossom tree. The art style uses a vibrant purple and red palette with hard edges and flat colors, evoking a nostalgic digital romance game aesthetic. Soft morning light filter."
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVJEabwFtFV6mXRlNJ9Zk4sVN2ijQCUtUatxT8CQMSns-HRqPD-a-COTBlLDSPxRxAtCwg3JmoLn8_wef4dlacwmmYR3WHCMRQ3A7XatYxHwaSth-5NtU4LtIOklbzG-q9DZeA021Pq0TiLe6w-p74MbUU2bFAg8Ay3XLN1vzfnsgur1B9bz1xTqVkPMxhEILdi_KQietNP2zPKcrL8-J7h2oQD07z-P6vuzJipA77m9QUD8e34Rl0PiyEWjgzxOyj8s718YB5pQ"
+                />
+              </div>
+              <button
+                class="w-full bg-secondary text-on-secondary font-headline-md text-headline-md py-4 pixel-border pixel-shadow pixel-button"
+              >
+                MULAI TES
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2: Suami Istri -->
+        <div class="md:col-span-12 lg:col-span-7 flex flex-col gap-6">
+          <div
+            class="bg-secondary-fixed-dim pixel-border pixel-shadow p-6 flex flex-row items-center gap-6 transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none group"
+          >
+            <div class="hidden md:block w-40 h-40 shrink-0 overflow-hidden pixel-border bg-surface">
+              <img
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all"
+                data-alt="Two hands holding each other in a warm, low-fidelity digital art style. The background features floating heart icons and a soft purple grid pattern. The lighting is cozy and warm, reflecting a deep emotional connection and partnership. Modern retro game interface aesthetic."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-T2xUt-vTHKRR6OWEjwaJ8E9mN3PZwCXkLseRkuCHcDk-9xvlA4mbM_6f9vvvmPSiWAVso_HzE7ULstN7jMiYbB45CTDkQZMUvBEA1K8VXScRD6PE_SqWRCqOvJ-KOB_75UFMLVLYZgSrnxSmQopL4BZDTuygWXsCA4-lVWsGEYLFn18rZ6vtu3jmZknsPOMPlkpJxansRz7SIwcVUYCuuU7LGPLBIzUKnBJO3_-gjtTiVf5cF_l6MVyjHdU-MMPpg58RyOTLxw"
+              />
+            </div>
+            <div class="flex-grow">
+              <div class="flex items-center gap-2 mb-2">
+                <span
+                  class="material-symbols-outlined text-secondary"
+                  data-icon="home"
+                  style="font-variation-settings: 'FILL' 1"
+                  >home</span
+                >
+                <h3 class="font-headline-md text-headline-md">Suami Istri</h3>
+              </div>
+              <p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                Membangun fondasi rumah tangga yang lebih kokoh dan harmonis setiap harinya.
+              </p>
+              <button
+                class="inline-block bg-primary text-on-primary font-label-sm text-label-sm px-6 py-2 pixel-border pixel-shadow pixel-button"
+              >
+                CEK HARMONI
+              </button>
+            </div>
+          </div>
+          <!-- Card 3: Orang Tua & Anak -->
+          <div
+            class="bg-surface-container pixel-border pixel-shadow p-6 flex flex-row-reverse items-center gap-6 transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none group"
+          >
+            <div class="hidden md:block w-40 h-40 shrink-0 overflow-hidden pixel-border bg-surface">
+              <img
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all"
+                data-alt="A stylized digital illustration of a parent and child silhouette playing together in a garden. The scene is rendered in a lo-fi pixel art style with a color palette of warm purples, soft pinks, and cream. The mood is nostalgic, peaceful, and full of familial love."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8rhyZtg8RjtJygWsZDyM978FuwwgbDwkLkcZeo-QijtcjkVdmmq0esqSrpJuTFXw8QaN5QihIlZxXnoxxrNixbuUHVN0hEeUR-ooiBPaF8XXsJ467Bdf48a9Op44HAYchQuhZCNg0tovFXXGx9GWwu0cW_WXh_YbANMUAlJu2Ku5UBWRfusTh5_YHDQZau2M-iI_vcjeTlgNFvhxiEskF958i8tpMJKH0GQMq5mzDqbocc-UVQIxmY8duY8viF4oj7B3faGiexQ"
+              />
+            </div>
+            <div class="flex-grow">
+              <div class="flex items-center gap-2 mb-2">
+                <span
+                  class="material-symbols-outlined text-secondary"
+                  data-icon="family_history"
+                  style="font-variation-settings: 'FILL' 1"
+                  >family_history</span
+                >
+                <h3 class="font-headline-md text-headline-md">Orang Tua &amp; Anak</h3>
+              </div>
+              <p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                Pahami dinamika emosional dan pererat ikatan kasih sayang dalam keluarga.
+              </p>
+              <button
+                class="inline-block bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-6 py-2 pixel-border pixel-shadow pixel-button"
+              >
+                MULAI TES
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Decorative Bottom Section -->
+      <div
+        class="mt-stack-lg p-8 bg-surface-container-high pixel-border-sm flex flex-col md:flex-row items-center justify-between gap-6 border-dashed border-2"
+      >
+        <div class="flex items-center gap-4">
+          <span class="material-symbols-outlined text-4xl text-primary" data-icon="stars"
+            >stars</span
+          >
+          <div>
+            <h4 class="font-headline-md text-headline-md">Quest Harian</h4>
+            <p class="font-body-md text-body-md">
+              Selesaikan 1 tes hari ini untuk +50 Heart Points!
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-2">
+          <div class="w-8 h-8 bg-primary pixel-border-sm"></div>
+          <div class="w-8 h-8 bg-primary-container pixel-border-sm"></div>
+          <div class="w-8 h-8 bg-outline-variant pixel-border-sm"></div>
+        </div>
+      </div>
+    </main>
+    <!-- BottomNavBar -->
+    <nav
+      class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 bg-surface border-t-4 border-on-background h-20"
+    >
+      <a
+        class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-secondary-fixed active:scale-95 transition-transform"
+        href="#"
+      >
+        <span class="material-symbols-outlined" data-icon="home">home</span>
+        <span class="font-label-sm text-label-sm mt-1">Home</span>
+      </a>
+      <a
+        class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-secondary-fixed active:scale-95 transition-transform"
+        href="#"
+      >
+        <span class="material-symbols-outlined" data-icon="chat_bubble">chat_bubble</span>
+        <span class="font-label-sm text-label-sm mt-1">Chat</span>
+      </a>
+      <a
+        class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-none border-2 border-on-background p-1 translate-y-[-2px] active:scale-95 transition-transform"
+        href="#"
+      >
+        <span
+          class="material-symbols-outlined"
+          data-icon="favorite"
+          style="font-variation-settings: 'FILL' 1"
+          >favorite</span
+        >
+        <span class="font-label-sm text-label-sm mt-1">Harmony</span>
+      </a>
+    </nav>
+  </body>
+</html>

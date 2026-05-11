@@ -1,0 +1,274 @@
+<!doctype html>
+
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>HEART QUEST - Harmony Result</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Nunito+Sans:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'secondary-container': '#8458e4',
+              'on-primary-fixed-variant': '#7e273c',
+              'on-background': '#1b1c17',
+              'surface-container-highest': '#e4e3db',
+              'on-secondary-fixed-variant': '#5520b3',
+              tertiary: '#b4252d',
+              'primary-fixed': '#ffd9dd',
+              secondary: '#6b3dca',
+              'on-tertiary-container': '#8a0015',
+              error: '#ba1a1a',
+              'surface-tint': '#9c3f53',
+              'on-surface': '#1b1c17',
+              'surface-container-low': '#f5f4ec',
+              'on-tertiary-fixed-variant': '#920418',
+              'primary-fixed-dim': '#ffb2bd',
+              'on-primary-fixed': '#400013',
+              'on-secondary': '#ffffff',
+              'on-secondary-container': '#fffbff',
+              'surface-container': '#f0eee6',
+              'on-primary': '#ffffff',
+              'surface-variant': '#e4e3db',
+              'tertiary-fixed': '#ffdad7',
+              'surface-container-lowest': '#ffffff',
+              outline: '#887274',
+              'on-secondary-fixed': '#23005b',
+              'on-primary-container': '#782338',
+              'on-error-container': '#93000a',
+              primary: '#9c3f53',
+              'inverse-primary': '#ffb2bd',
+              'surface-dim': '#dcdad2',
+              'on-surface-variant': '#554244',
+              'inverse-on-surface': '#f3f1e9',
+              'on-tertiary-fixed': '#410005',
+              'tertiary-container': '#ff8f8a',
+              'tertiary-fixed-dim': '#ffb3af',
+              'inverse-surface': '#30312c',
+              'outline-variant': '#dac0c3',
+              'on-error': '#ffffff',
+              'primary-container': '#ff8da1',
+              'secondary-fixed': '#e9ddff',
+              surface: '#fbf9f1',
+              'error-container': '#ffdad6',
+              'secondary-fixed-dim': '#d1bcff',
+              background: '#fbf9f1',
+              'on-tertiary': '#ffffff',
+              'surface-bright': '#fbf9f1',
+              'surface-container-high': '#eae8e0',
+            },
+            borderRadius: {
+              DEFAULT: '0.25rem',
+              lg: '0.5rem',
+              xl: '0.75rem',
+              full: '9999px',
+            },
+            spacing: {
+              'pixel-unit': '4px',
+              'stack-sm': '8px',
+              'margin-mobile': '20px',
+              'stack-md': '16px',
+              'stack-lg': '32px',
+              gutter: '16px',
+            },
+            fontFamily: {
+              'label-sm': ['Nunito Sans'],
+              'body-lg': ['Nunito Sans'],
+              'headline-md': ['Press Start 2P'],
+              'headline-lg': ['Press Start 2P'],
+              'body-md': ['Nunito Sans'],
+            },
+            fontSize: {
+              'label-sm': ['12px', { lineHeight: '16px', fontWeight: '700' }],
+              'body-lg': ['18px', { lineHeight: '28px', fontWeight: '400' }],
+              'headline-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
+              'headline-lg': ['20px', { lineHeight: '32px', fontWeight: '400' }],
+              'body-md': ['16px', { lineHeight: '24px', fontWeight: '400' }],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      .pixel-border {
+        box-shadow: 4px 4px 0px 0px rgba(27, 28, 23, 1);
+      }
+      .pixel-border-pressed {
+        box-shadow: 0px 0px 0px 0px rgba(27, 28, 23, 1);
+        transform: translate(2px, 2px);
+      }
+      .inset-pixel-border {
+        box-shadow: inset 4px 4px 0px 0px rgba(27, 28, 23, 0.1);
+      }
+      .pixel-bg-pattern {
+        background-color: #fbf9f1;
+        background-image: radial-gradient(#9c3f53 0.5px, transparent 0.5px);
+        background-size: 16px 16px;
+        background-position:
+          0 0,
+          8px 8px;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+      }
+    </style>
+    <style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background text-on-surface font-body-md pixel-bg-pattern min-h-screen flex flex-col items-center"
+  >
+    <header
+      class="w-full top-0 border-b-4 border-on-background bg-surface shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] z-50 sticky"
+    >
+      <div class="flex items-center px-margin-mobile h-16 w-full max-w-7xl mx-auto justify-between">
+        <div class="flex items-center gap-4">
+          <button
+            class="text-primary active:translate-x-[2px] active:translate-y-[2px] transition-all"
+          >
+            <span class="material-symbols-outlined text-headline-lg">arrow_back</span>
+          </button>
+          <h1 class="font-headline-lg text-headline-lg text-primary">HEART QUEST</h1>
+        </div>
+      </div>
+    </header>
+    <main class="flex-1 w-full max-w-md px-margin-mobile py-stack-lg flex flex-col items-center">
+      <div
+        class="bg-surface border-4 border-on-background p-stack-md w-full pixel-border flex flex-col items-center text-center relative overflow-hidden"
+      >
+        <div class="absolute top-0 left-0 w-full h-2 bg-primary"></div>
+        <div
+          class="my-stack-lg w-48 h-48 flex items-center justify-center bg-surface-container-low border-2 border-on-background relative"
+        >
+          <img
+            alt="Harmony Result Mascot"
+            class="w-40 h-40 object-contain"
+            data-alt="A large, vibrant pink pixel-art heart character with a wide, joyful smile and sparkling eyes, standing in a cozy digital room with warm lighting. The style is strictly 16-bit retro-gaming aesthetic with sharp, visible pixels and no anti-aliasing. The character radiates a warm, happy energy against a soft cream background, perfectly matching a modern intimacy brand identity with a nostalgic lo-fi twist."
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnezbIEI_-0o593DsDlJD77cbVhcZlSeWKvs9RBC6QPpHYGG5BhGayFhzzn4Rwp6MX1EDP4bp4OvUONAWAjFoPEmieGG3JrQOPIIpUAomOyOyCP7Q96hXUhdZmSUIVe2Ehv3MDeJhF8j4lv1T1XNLmcClmT380srHhvB2CEcOpfNyat6PfyOqultbjIjSo7ihIzfK8BrgdXseQxGMiKVP9Yj1LwmOigGbjveE2BoHHQDWbM84_X0CZiqc0cxxMkCZhtOt4tcmSAw"
+          />
+          <div
+            class="absolute -top-4 -right-4 bg-tertiary-container border-2 border-on-background p-2 pixel-border"
+          >
+            <span
+              class="material-symbols-outlined text-on-tertiary-container"
+              style="font-variation-settings: 'FILL' 1"
+              >favorite</span
+            >
+          </div>
+        </div>
+        <div
+          class="bg-secondary-container border-2 border-on-background p-stack-sm mb-stack-md w-full"
+        >
+          <p class="font-headline-md text-headline-md text-on-secondary-container">
+            Hubungan Anda:
+          </p>
+          <p class="font-headline-lg text-headline-lg text-on-secondary-container mt-2">
+            Hangat &amp; Bahagia
+          </p>
+        </div>
+        <div
+          class="bg-surface-container-highest border-2 border-on-background p-stack-md mb-stack-lg inset-pixel-border text-left w-full"
+        >
+          <div class="flex items-start gap-2">
+            <span class="material-symbols-outlined text-primary mt-1">auto_awesome</span>
+            <p class="font-body-lg text-body-lg text-on-surface-variant">
+              Kalian berada di jalur yang benar! Teruslah berkomunikasi dan jangan lupa untuk
+              merayakan hal-hal kecil setiap harinya.
+            </p>
+          </div>
+        </div>
+        <div class="w-full flex flex-col gap-stack-md">
+          <button
+            class="w-full bg-primary border-4 border-on-background p-4 flex items-center justify-center gap-3 pixel-border hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none active:scale-95 transition-all group"
+          >
+            <div class="border-2 border-white/30 absolute inset-1 pointer-events-none"></div>
+            <span class="material-symbols-outlined text-white">psychology</span>
+            <span class="font-headline-md text-headline-md text-white"
+              >Tips Mempererat Hubungan</span
+            >
+          </button>
+          <button
+            class="w-full bg-surface-container-high border-4 border-on-background p-4 flex items-center justify-center gap-3 pixel-border hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none active:scale-95 transition-all"
+          >
+            <span class="font-headline-md text-headline-md text-on-surface">Selesai</span>
+          </button>
+        </div>
+      </div>
+      <div class="mt-stack-lg w-full">
+        <h3
+          class="font-headline-md text-headline-md text-primary mb-stack-sm flex items-center gap-2"
+        >
+          <span class="material-symbols-outlined">analytics</span> Statistik Harmony
+        </h3>
+        <div class="grid grid-cols-2 gap-stack-sm">
+          <div class="bg-surface border-2 border-on-background p-stack-sm pixel-border">
+            <p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Komunikasi</p>
+            <div class="flex mt-1">
+              <span class="w-full h-4 bg-tertiary-container border-2 border-on-background flex">
+                <span class="h-full bg-tertiary w-3/4"></span>
+              </span>
+            </div>
+          </div>
+          <div class="bg-surface border-2 border-on-background p-stack-sm pixel-border">
+            <p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Empati</p>
+            <div class="flex mt-1">
+              <span class="w-full h-4 bg-tertiary-container border-2 border-on-background flex">
+                <span class="h-full bg-tertiary w-full"></span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="h-24"></div>
+    <nav
+      class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 bg-surface border-t-4 border-on-background h-20"
+    >
+      <a
+        class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-secondary-fixed transition-colors"
+        href="#"
+      >
+        <span class="material-symbols-outlined">home</span>
+        <span class="font-label-sm text-label-sm mt-1">Home</span>
+      </a>
+      <a
+        class="flex flex-col items-center justify-center text-on-surface-variant p-2 hover:bg-secondary-fixed transition-colors"
+        href="#"
+      >
+        <span class="material-symbols-outlined">chat_bubble</span>
+        <span class="font-label-sm text-label-sm mt-1">Chat</span>
+      </a>
+      <a
+        class="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-none border-2 border-on-background p-1 translate-y-[-2px]"
+        href="#"
+      >
+        <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1"
+          >favorite</span
+        >
+        <span class="font-label-sm text-label-sm mt-1">Harmony</span>
+      </a>
+    </nav>
+  </body>
+</html>
