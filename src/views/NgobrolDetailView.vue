@@ -77,9 +77,7 @@ const getRandom = () => {
             </div>
         </div>
         <div class="content">
-            <Question :question="pertanyaan?.pertanyaan" id=" question">
-
-            </Question>
+            <Question :question="pertanyaan?.pertanyaan || ''" />
             <button class="btn btn-primary btn-full mt-4" @click="getRandom">
                 Pertanyaan lain
                 <!-- https://feathericons.dev/?search=chevrons-right&iconset=feather -->
