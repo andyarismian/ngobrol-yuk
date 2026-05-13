@@ -1,0 +1,19 @@
+{
+  "id": "NgobrolSuamiIStri",
+  "icon": "",
+  "text": "Obrolan Suami Istri",
+  "data": [
+    {
+      "id": 1,
+      "pertanyaan": "Apa hal yang paling kamu syukuri dari pasanganmu hari ini?"
+    },
+    {
+      "id": 2,
+      "pertanyaan": "Kapan terakhir kali kita benar-benar quality time bersama?"
+    },
+    {
+      "id": 3,
+      "pertanyaan": "Apa harapanmu untuk hubungan kita ke depan?"
+    }
+  ]
+}
