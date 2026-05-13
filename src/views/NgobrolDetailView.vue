@@ -11,11 +11,7 @@ type Pertanyaan = {
 }
 
 const route = useRoute()
-const idParam = route.params.id
-if (typeof idParam !== 'string') {
-    throw new Error('Invalid route param id')
-}
-const id = idParam
+const id = String(route.params.id)
 
 const title = ref('')
 const alreadyTaken = ref<number[]>([])
