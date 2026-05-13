@@ -122,6 +122,10 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-full {

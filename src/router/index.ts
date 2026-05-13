@@ -25,6 +25,26 @@ const router = createRouter({
       component: () => import('../views/NgobrolDetailView.vue'),
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    // kalau user pakai back/forward
+    if (savedPosition) {
+      return savedPosition
+    }
+
+    // kalau ada anchor (#id)
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    }
+
+    // default: ke atas
+    return {
+      top: 0,
+      behavior: 'smooth',
+    }
+  },
 })
 
 export default router

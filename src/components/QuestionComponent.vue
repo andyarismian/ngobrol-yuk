@@ -12,4 +12,10 @@ defineProps<{
         </div>
     </div>
 </template>
-<style scoped></style>
+<style scoped>
+.card-body {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+</style>
