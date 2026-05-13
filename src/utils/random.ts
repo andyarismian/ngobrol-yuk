@@ -11,6 +11,6 @@ export const random = {
       throw new Error('Array tidak boleh kosong')
     }
     const index = Math.floor(Math.random() * arr.length)
-    return arr[index]
+    return arr[index]! // <-- fix di sini
   },
 }

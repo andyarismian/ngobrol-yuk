@@ -11,7 +11,11 @@ type Pertanyaan = {
 }
 
 const route = useRoute()
-const id = route.params.id as string // pastikan string
+const idParam = route.params.id
+if (typeof idParam !== 'string') {
+    throw new Error('Invalid route param id')
+}
+const id = idParam
 
 const title = ref('')
 const alreadyTaken = ref<number[]>([])
@@ -24,12 +28,11 @@ onMounted(async () => {
     title.value = data.text
     listPertanyaan.value = data.data
 
-    // ambil dari storage
     alreadyTaken.value = storage.get(id) || []
 
-    // ambil random pertama
+    if (listPertanyaan.value.length === 0) return
     const randomIndex = random.int(0, listPertanyaan.value.length - 1)
-    const first = listPertanyaan.value[randomIndex]
+    const first = listPertanyaan.value[randomIndex]!
 
     pertanyaan.value = first
     alreadyTaken.value.push(first.id)
