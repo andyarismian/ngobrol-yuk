@@ -1,0 +1,166 @@
+{
+  "id": "ngobrolbuIbu",
+  "icon": "",
+  "text": "Obrolan bersama Ibu-ibu",
+  "data": [
+    { "id": 1, "pertanyaan": "Kenapa niatnya cuma beli 1 barang, pulang-pulang bawa 5 kantong?" },
+    {
+      "id": 2,
+      "pertanyaan": "Siapa yang paling sering bilang 'cuma lihat-lihat' tapi lama di toko?"
+    },
+    {
+      "id": 3,
+      "pertanyaan": "Kenapa kalau ke pasar, pulang bawa cerita lebih banyak dari belanjaan?"
+    },
+    { "id": 4, "pertanyaan": "Siapa yang paling jago nemu diskon walau nggak butuh barangnya?" },
+    { "id": 5, "pertanyaan": "Kenapa kalau kumpul, topiknya bisa dari sabun sampai politik?" },
+    {
+      "id": 6,
+      "pertanyaan": "Siapa yang paling sering kirim pesan 'info penting' tapi isinya cuma selamat pagi?"
+    },
+    { "id": 7, "pertanyaan": "Kenapa grup WA ibu-ibu nggak pernah sepi walau jam 2 pagi?" },
+    { "id": 8, "pertanyaan": "Siapa yang paling cepat baca chat tapi paling lama balas?" },
+    { "id": 9, "pertanyaan": "Kenapa kalau lihat promo, tiba-tiba jadi ahli matematika?" },
+    {
+      "id": 10,
+      "pertanyaan": "Siapa yang paling jago pura-pura nggak tertarik tapi ujungnya beli?"
+    },
+
+    { "id": 11, "pertanyaan": "Kenapa kalau duduk sebentar di rumah tetangga, bisa jadi 3 jam?" },
+    { "id": 12, "pertanyaan": "Siapa yang paling jago bikin cerita kecil jadi panjang?" },
+    { "id": 13, "pertanyaan": "Kenapa kalau ketawa, satu rumah bisa ikut dengar?" },
+    {
+      "id": 14,
+      "pertanyaan": "Siapa yang paling sering bilang 'aku nggak gosip' tapi tahu semua berita?"
+    },
+    { "id": 15, "pertanyaan": "Kenapa kalau ada makanan enak, tiba-tiba jadi rapat dadakan?" },
+    {
+      "id": 16,
+      "pertanyaan": "Siapa yang paling sering bawa pulang 'oleh-oleh cerita' dari luar rumah?"
+    },
+    {
+      "id": 17,
+      "pertanyaan": "Kenapa belanja 1 item bisa berubah jadi 10 item di tangan ibu-ibu?"
+    },
+    { "id": 18, "pertanyaan": "Siapa yang paling jago cari alasan biar bisa keluar rumah?" },
+    { "id": 19, "pertanyaan": "Kenapa kalau bilang 'aku sebentar aja', ujungnya lama?" },
+    { "id": 20, "pertanyaan": "Siapa yang paling jago bikin acara dadakan jadi rame?" },
+
+    {
+      "id": 21,
+      "pertanyaan": "Kalau ibu-ibu jadi superhero, kekuatannya apa? Diskon tak terbatas?"
+    },
+    { "id": 22, "pertanyaan": "Kenapa kalau belanja online, selalu ada alasan 'lagi promo'?" },
+    { "id": 23, "pertanyaan": "Siapa yang paling sering lupa niat awal pas masuk toko?" },
+    { "id": 24, "pertanyaan": "Kenapa dapur ibu selalu jadi pusat dunia?" },
+    {
+      "id": 25,
+      "pertanyaan": "Siapa yang paling jago bikin masakan 'seadanya' tapi enaknya luar biasa?"
+    },
+    { "id": 26, "pertanyaan": "Kenapa kalau masak, selalu bilang 'ini simpel' padahal ribet?" },
+    { "id": 27, "pertanyaan": "Siapa yang paling sering bilang 'diet mulai besok'?" },
+    { "id": 28, "pertanyaan": "Kenapa makanan di rumah orang lain selalu kelihatan lebih enak?" },
+    { "id": 29, "pertanyaan": "Siapa yang paling jago nyimpen makanan tapi lupa dimakan?" },
+    { "id": 30, "pertanyaan": "Kenapa kulkas selalu penuh tapi tetap bilang 'nggak ada makanan'?" },
+
+    { "id": 31, "pertanyaan": "Siapa yang paling jago jadi detektif gosip komplek?" },
+    { "id": 32, "pertanyaan": "Kenapa info lebih cepat dari internet di tangan ibu-ibu?" },
+    { "id": 33, "pertanyaan": "Siapa yang paling sering jadi 'admin tidak resmi' grup RT?" },
+    { "id": 34, "pertanyaan": "Kenapa kalau ada kabar baru, langsung jadi trending lokal?" },
+    { "id": 35, "pertanyaan": "Siapa yang paling jago analisis cerita tetangga?" },
+    { "id": 36, "pertanyaan": "Kenapa semua orang tiba-tiba jadi ahli kehidupan orang lain?" },
+    { "id": 37, "pertanyaan": "Siapa yang paling jago bikin topik baru tiap 5 menit?" },
+    { "id": 38, "pertanyaan": "Kenapa kalau ngobrol, satu topik bisa jadi 10 cabang?" },
+    {
+      "id": 39,
+      "pertanyaan": "Siapa yang paling sering bilang 'aku nggak ikut komentar' tapi komentar terus?"
+    },
+    { "id": 40, "pertanyaan": "Kenapa gosip lebih cepat dari paket ekspedisi?" },
+
+    { "id": 41, "pertanyaan": "Siapa yang paling jago bikin rencana tapi jarang dieksekusi?" },
+    { "id": 42, "pertanyaan": "Kenapa 'sebentar' ibu-ibu bisa berarti 1 jam?" },
+    { "id": 43, "pertanyaan": "Siapa yang paling sering jadi pusat kumpul dadakan?" },
+    { "id": 44, "pertanyaan": "Kenapa kalau kumpul, makanan selalu lebih banyak dari orang?" },
+    { "id": 45, "pertanyaan": "Siapa yang paling jago bikin suasana jadi rame tanpa usaha?" },
+    { "id": 46, "pertanyaan": "Kenapa kalau duduk sebentar, tahu-tahu udah malam?" },
+    { "id": 47, "pertanyaan": "Siapa yang paling sering jadi MC dadakan di mana saja?" },
+    { "id": 48, "pertanyaan": "Kenapa kalau ada cerita lucu, bisa diulang 10 kali tetap ketawa?" },
+    { "id": 49, "pertanyaan": "Siapa yang paling jago bikin drama kecil jadi besar?" },
+    { "id": 50, "pertanyaan": "Kenapa kalau ngobrol, waktu kayak di-fast forward?" },
+
+    {
+      "id": 51,
+      "pertanyaan": "Siapa yang paling jago bilang 'aku di rumah aja' tapi keluar juga?"
+    },
+    { "id": 52, "pertanyaan": "Kenapa kalau lihat promo, langsung jadi urgent meeting?" },
+    { "id": 53, "pertanyaan": "Siapa yang paling sering tahu berita sebelum TV?" },
+    { "id": 54, "pertanyaan": "Kenapa kalau ke toko, niat hemat selalu gagal?" },
+    { "id": 55, "pertanyaan": "Siapa yang paling jago bikin daftar belanja tapi nggak dipakai?" },
+    { "id": 56, "pertanyaan": "Kenapa selalu ada barang 'tak terduga' di keranjang belanja?" },
+    {
+      "id": 57,
+      "pertanyaan": "Siapa yang paling sering bilang 'nggak beli apa-apa' tapi bawa banyak?"
+    },
+    { "id": 58, "pertanyaan": "Kenapa kalau liat barang lucu, langsung merasa butuh?" },
+    { "id": 59, "pertanyaan": "Siapa yang paling jago belanja sambil curhat?" },
+    { "id": 60, "pertanyaan": "Kenapa pasar jadi tempat healing paling murah?" },
+
+    { "id": 61, "pertanyaan": "Siapa yang paling jago bikin grup baru tapi isinya orang lama?" },
+    { "id": 62, "pertanyaan": "Kenapa chat 'selamat pagi' bisa jadi 100 pesan?" },
+    { "id": 63, "pertanyaan": "Siapa yang paling sering kirim stiker tanpa konteks?" },
+    { "id": 64, "pertanyaan": "Kenapa grup WA ibu-ibu lebih aktif dari kantor?" },
+    { "id": 65, "pertanyaan": "Siapa yang paling sering kirim voice note panjang tapi santai?" },
+    { "id": 66, "pertanyaan": "Kenapa semua orang tiba-tiba jadi storyteller di chat?" },
+    { "id": 67, "pertanyaan": "Siapa yang paling sering jadi 'penyebar info cepat'?" },
+    { "id": 68, "pertanyaan": "Kenapa satu emoji bisa jadi pembicaraan panjang?" },
+    { "id": 69, "pertanyaan": "Siapa yang paling jago bikin grup jadi ramai lagi?" },
+    { "id": 70, "pertanyaan": "Kenapa chat bisa lebih ramai dari acara TV?" },
+
+    {
+      "id": 71,
+      "pertanyaan": "Siapa yang paling sering bilang 'aku nggak gosip' tapi tahu semuanya?"
+    },
+    { "id": 72, "pertanyaan": "Kenapa ibu-ibu selalu punya info lebih cepat dari internet?" },
+    { "id": 73, "pertanyaan": "Siapa yang paling jago bikin cerita sederhana jadi sinetron?" },
+    { "id": 74, "pertanyaan": "Kenapa kalau cerita, selalu ada tambahan episode?" },
+    { "id": 75, "pertanyaan": "Siapa yang paling sering jadi narator tidak resmi komplek?" },
+    { "id": 76, "pertanyaan": "Kenapa semua kejadian bisa jadi bahan cerita?" },
+    { "id": 77, "pertanyaan": "Siapa yang paling jago bikin suasana jadi hidup?" },
+    { "id": 78, "pertanyaan": "Kenapa kalau kumpul, selalu ada 'breaking news'?" },
+    { "id": 79, "pertanyaan": "Siapa yang paling sering jadi sumber informasi lokal?" },
+    { "id": 80, "pertanyaan": "Kenapa semua hal bisa jadi topik menarik?" },
+
+    { "id": 81, "pertanyaan": "Siapa yang paling jago bikin rencana jalan tapi sering berubah?" },
+    { "id": 82, "pertanyaan": "Kenapa 'cuma sebentar' selalu jadi lama?" },
+    { "id": 83, "pertanyaan": "Siapa yang paling sering jadi pusat perhatian tanpa sengaja?" },
+    { "id": 84, "pertanyaan": "Kenapa kalau kumpul, selalu ada snack misterius?" },
+    { "id": 85, "pertanyaan": "Siapa yang paling jago bikin ide dadakan jadi acara?" },
+    { "id": 86, "pertanyaan": "Kenapa semua orang bisa jadi panitia tanpa diminta?" },
+    { "id": 87, "pertanyaan": "Siapa yang paling sering jadi penggerak kumpulan?" },
+    { "id": 88, "pertanyaan": "Kenapa satu ajakan bisa jadi rame satu RT?" },
+    { "id": 89, "pertanyaan": "Siapa yang paling jago bikin ide kecil jadi besar?" },
+    { "id": 90, "pertanyaan": "Kenapa kalau kumpul, waktu selalu terasa cepat?" },
+
+    {
+      "id": 91,
+      "pertanyaan": "Siapa yang paling sering bilang 'aku nggak ikut' tapi datang juga?"
+    },
+    { "id": 92, "pertanyaan": "Kenapa kalau ngobrol, bisa lupa waktu total?" },
+    { "id": 93, "pertanyaan": "Siapa yang paling jago bikin suasana hangat?" },
+    { "id": 94, "pertanyaan": "Kenapa kalau ada makanan, semua jadi kompak?" },
+    { "id": 95, "pertanyaan": "Siapa yang paling sering bawa kabar baru tiap hari?" },
+    { "id": 96, "pertanyaan": "Kenapa semua hal bisa jadi bahan ketawa?" },
+    { "id": 97, "pertanyaan": "Siapa yang paling jago bikin hari biasa jadi seru?" },
+    { "id": 98, "pertanyaan": "Kenapa kalau kumpul, selalu ada cerita baru?" },
+    { "id": 99, "pertanyaan": "Siapa yang paling sering jadi pusat cerita?" },
+    { "id": 100, "pertanyaan": "Kenapa ibu-ibu kalau kumpul, dunia terasa lebih rame?" },
+
+    { "id": 101, "pertanyaan": "Siapa yang paling jago bikin momen biasa jadi spesial?" },
+    { "id": 102, "pertanyaan": "Kenapa kalau ngobrol, bisa pindah 10 topik tanpa sadar?" },
+    { "id": 103, "pertanyaan": "Siapa yang paling sering jadi 'penyambung cerita'?" },
+    { "id": 104, "pertanyaan": "Kenapa semua orang tiba-tiba jadi kompak kalau soal makanan?" },
+    { "id": 105, "pertanyaan": "Siapa yang paling jago bikin tawa di mana saja?" },
+    { "id": 106, "pertanyaan": "Kenapa kalau kumpul, selalu ada energi tambahan?" },
+    { "id": 107, "pertanyaan": "Siapa yang paling sering bikin suasana jadi hidup?" }
+  ]
+}
